@@ -1,0 +1,13 @@
+.env.example
+.env.local
+README.md
+# dependencies
+node_modules/
+
+# build
+.next/
+dist/
+
+# misc
+.env
+.DS_Store
