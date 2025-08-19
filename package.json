@@ -9,7 +9,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +20,8 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
     "autoprefixer": "^10.4.21",
     "eslint-config-next": "^15.4.6",
     "postcss": "^8.5.6",
