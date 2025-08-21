@@ -1,15 +1,20 @@
 {
   "name": "interads",
   "version": "1.0.0",
-  "description": "",
+  "description": "Conversational Video Ads MVP built with Next.js and React (JavaScript only)",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
-  "keywords": [],
+  "keywords": [
+    "nextjs",
+    "react",
+    "video",
+    "ads",
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -21,7 +26,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-    "eslint-config-next": "^15.4.6",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   }

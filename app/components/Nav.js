@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 export default function Nav() {
   const path = usePathname();
+
   const link = (href, label) => (
     <Link
       href={href}

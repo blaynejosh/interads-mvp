@@ -1,4 +1,5 @@
 "use client";
+
 import { useRef, useState } from "react";
 
 async function postJSON(url, data) {
@@ -17,11 +18,13 @@ export default function Player() {
 
   const handlePlayPause = () => {
     if (!videoRef.current) return;
+
     if (playing) {
       videoRef.current.pause();
     } else {
       videoRef.current.play();
     }
+
     setPlaying(!playing);
   };
 
@@ -31,6 +34,7 @@ export default function Player() {
         <source src="/sample.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
       <button onClick={handlePlayPause}>
         {playing ? "Pause" : "Play"}
       </button>
